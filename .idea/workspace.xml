@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b2a0ed-3db2-4ee1-894e-76c93eb15d5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/reservation/ReservationRestaurantApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/ReservationRestaurantApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/reservation/ReservationRestaurantApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/ReservationRestaurantApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,6 +55,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Reservation-Restaurant - 복사본" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.project.reservation.interfaces" />
       <recent name="com.project.reservation.domain" />
+      <recent name="com.project.reservation.interfaces" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,7 +75,7 @@
       <recent name="C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReservationRestaurantApplicationTests">
+  <component name="RunManager" selected="Gradle.RestaurantTests">
     <configuration name="ReservationRestaurantApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,10 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RestaurantTests" />
         <item itemvalue="Gradle.ReservationRestaurantApplicationTests" />
         <item itemvalue="Spring Boot.ReservationRestaurantApplication (1)" />
         <item itemvalue="Gradle.RestaurantControllerTests" />
-        <item itemvalue="Gradle.RestaurantTests" />
       </list>
     </recent_temporary>
   </component>
@@ -215,26 +204,30 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="491" y="139" key="#ReservationRestaurantApplication/0.0.1707.1036@0.0.1707.1036" timestamp="1578631066761" />
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1578568583063">
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1578637221029">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1578568583063" />
-    <state width="1707" height="284" key="GridCell.Tab.0.bottom" timestamp="1578636741065">
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1578637221029" />
+    <state x="634" y="274" key="FileChooserDialogImpl" timestamp="1578637065092">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1578636741065" />
-    <state width="1707" height="284" key="GridCell.Tab.0.center" timestamp="1578636741065">
+    <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1578637065092" />
+    <state width="1707" height="284" key="GridCell.Tab.0.bottom" timestamp="1578637509219">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1578636741065" />
-    <state width="1707" height="284" key="GridCell.Tab.0.left" timestamp="1578636741065">
+    <state width="1707" height="284" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1578637509219" />
+    <state width="1707" height="284" key="GridCell.Tab.0.center" timestamp="1578637509219">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1578636741065" />
-    <state width="1707" height="284" key="GridCell.Tab.0.right" timestamp="1578636741065">
+    <state width="1707" height="284" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1578637509219" />
+    <state width="1707" height="284" key="GridCell.Tab.0.left" timestamp="1578637509219">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1578636741065" />
+    <state width="1707" height="284" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1578637509219" />
+    <state width="1707" height="284" key="GridCell.Tab.0.right" timestamp="1578637509219">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1707" height="284" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1578637509219" />
     <state width="1707" height="284" key="GridCell.Tab.1.bottom" timestamp="1578636741066">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
@@ -251,10 +244,10 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state width="1707" height="284" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1578636741066" />
-    <state x="612" y="236" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578567264377">
+    <state x="612" y="236" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578636880726">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="612" y="236" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1578567264377" />
+    <state x="612" y="236" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1578636880726" />
     <state x="556" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1578568565634">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
