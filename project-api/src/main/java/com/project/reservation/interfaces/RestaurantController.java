@@ -2,6 +2,7 @@ package com.project.reservation.interfaces;
 
 import com.project.reservation.domain.Restaurant;
 import com.project.reservation.domain.RestaurantRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +13,8 @@ import java.util.List;
 @RestController
 public class RestaurantController {
 
-    RestaurantRepository repository = new RestaurantRepository();
+    @Autowired
+    RestaurantRepository repository;
 
     @GetMapping("/restaurants")
     public List<Restaurant> list() {
