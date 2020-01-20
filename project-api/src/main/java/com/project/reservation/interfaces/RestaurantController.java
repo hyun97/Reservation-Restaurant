@@ -1,5 +1,7 @@
 package com.project.reservation.interfaces;
 
+import com.project.reservation.domain.MenuItem;
+import com.project.reservation.domain.MenuItemRepository;
 import com.project.reservation.domain.Restaurant;
 import com.project.reservation.domain.RestaurantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +16,10 @@ import java.util.List;
 public class RestaurantController {
 
     @Autowired
-    RestaurantRepository repository;
+    private RestaurantRepository restaurantRepository;
+
+    @Autowired
+    private MenuItemRepository menuItemRepository;
 
     @GetMapping("/restaurants")
     public List<Restaurant> list() {
@@ -23,11 +28,16 @@ public class RestaurantController {
         restaurants.add(new Restaurant(1004L, "Bob zip", "Seoul"));
         restaurants.add(new Restaurant(2020L, "Cyber food", "Seoul"));
 
-        return repository.findAll();
+        return restaurantRepository.findAll();
     }
 
     @GetMapping("/restaurants/{id}")
     public Restaurant detail(@PathVariable("id") Long id) {
-        return repository.findById(id);
+        Restaurant restaurant = restaurantRepository.findById(id);
+
+        List<MenuItem> menuItems = menuItemRepository.findAllByRestaurantId(id);
+        restaurant.setMenuItems(menuItems);
+
+        return restaurant;
     }
 }

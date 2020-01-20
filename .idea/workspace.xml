@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93b2a0ed-3db2-4ee1-894e-76c93eb15d5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/RestaurantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/RestaurantRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/interfaces/RestaurantControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/interfaces/RestaurantControllerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +79,7 @@
       <recent name="C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RestaurantTests">
+  <component name="RunManager" selected="Gradle.RestaurantControllerTests">
     <configuration name="ReservationRestaurantApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,6 +120,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RestaurantControllerTests.detail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.RestaurantControllerTests.detail&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":project-api:cleanTest" />
+            <option value=":project-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RestaurantTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,53 +159,6 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Reservation-Restaurant" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Reservation-Restaurant" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ReservationRestaurantApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Reservation-Restaurant.project-api.main" />
@@ -212,8 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RestaurantTests" />
         <item itemvalue="Gradle.RestaurantControllerTests" />
+        <item itemvalue="Gradle.RestaurantControllerTests.detail" />
+        <item itemvalue="Gradle.RestaurantTests" />
         <item itemvalue="Gradle.ReservationRestaurantApplicationTests" />
         <item itemvalue="Spring Boot.ReservationRestaurantApplication (1)" />
       </list>
@@ -258,30 +229,30 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="491" y="139" key="#ReservationRestaurantApplication/0.0.1707.1036@0.0.1707.1036" timestamp="1578631066761" />
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1578638348684">
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579524987274">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1578638348684" />
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1579524987274" />
     <state x="634" y="274" key="FileChooserDialogImpl" timestamp="1578637065092">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1578637065092" />
-    <state width="1707" height="284" key="GridCell.Tab.0.bottom" timestamp="1578652849387">
+    <state width="1707" height="279" key="GridCell.Tab.0.bottom" timestamp="1579525445663">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1578652849387" />
-    <state width="1707" height="284" key="GridCell.Tab.0.center" timestamp="1578652849387">
+    <state width="1707" height="279" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1579525445663" />
+    <state width="1707" height="279" key="GridCell.Tab.0.center" timestamp="1579525445662">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1578652849387" />
-    <state width="1707" height="284" key="GridCell.Tab.0.left" timestamp="1578652849386">
+    <state width="1707" height="279" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1579525445662" />
+    <state width="1707" height="279" key="GridCell.Tab.0.left" timestamp="1579525445662">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1578652849386" />
-    <state width="1707" height="284" key="GridCell.Tab.0.right" timestamp="1578652849387">
+    <state width="1707" height="279" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1579525445662" />
+    <state width="1707" height="279" key="GridCell.Tab.0.right" timestamp="1579525445663">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="284" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1578652849387" />
+    <state width="1707" height="279" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1579525445662" />
     <state width="1707" height="284" key="GridCell.Tab.1.bottom" timestamp="1578636741066">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>

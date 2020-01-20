@@ -1,5 +1,7 @@
 package com.project.reservation.interfaces;
 
+import com.project.reservation.domain.MenuItemRepository;
+import com.project.reservation.domain.MenuItemRepositoryImpl;
 import com.project.reservation.domain.RestaurantRepository;
 import com.project.reservation.domain.RestaurantRepositoryImpl;
 import org.junit.jupiter.api.Test;
@@ -23,7 +25,10 @@ class RestaurantControllerTests {
     private MockMvc mvc;
 
     @SpyBean(RestaurantRepositoryImpl.class)
-    private RestaurantRepository repository;
+    private RestaurantRepository restaurantRepository;
+
+    @SpyBean(MenuItemRepositoryImpl.class)
+    private MenuItemRepository menuItemRepository;
 
     @Test
     public void list() throws Exception {
@@ -38,7 +43,8 @@ class RestaurantControllerTests {
         mvc.perform(get("/restaurants/1004"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("\"id\":1004")))
-                .andExpect(content().string(containsString("\"name\":\"Bob zip\"")));
+                .andExpect(content().string(containsString("\"name\":\"Bob zip\"")))
+                .andExpect(content().string(containsString("Kimchi")));
 
         mvc.perform(get("/restaurants/2020"))
                 .andExpect(status().isOk())
