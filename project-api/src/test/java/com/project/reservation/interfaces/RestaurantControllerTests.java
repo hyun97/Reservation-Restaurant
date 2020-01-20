@@ -1,5 +1,6 @@
 package com.project.reservation.interfaces;
 
+import com.project.reservation.application.RestaurantService;
 import com.project.reservation.domain.MenuItemRepository;
 import com.project.reservation.domain.MenuItemRepositoryImpl;
 import com.project.reservation.domain.RestaurantRepository;
@@ -23,6 +24,9 @@ class RestaurantControllerTests {
 
     @Autowired
     private MockMvc mvc;
+
+    @SpyBean(RestaurantService.class)
+    private RestaurantService restaurantService;
 
     @SpyBean(RestaurantRepositoryImpl.class)
     private RestaurantRepository restaurantRepository;
