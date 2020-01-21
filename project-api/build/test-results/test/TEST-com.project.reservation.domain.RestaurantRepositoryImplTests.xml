@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.reservation.domain.RestaurantRepositoryImplTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-21T12:37:38" hostname="DESKTOP-B7A5GTQ" time="0.069">
+  <properties/>
+  <testcase name="save()" classname="com.project.reservation.domain.RestaurantRepositoryImplTests" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
