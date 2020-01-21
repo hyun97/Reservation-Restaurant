@@ -1,7 +1,21 @@
 package com.project.reservation.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity // 테이블에 대응하는 클래스
 public class MenuItem {
-    private final String name;
+
+    @Id // primary key
+    @GeneratedValue
+    private Long id;
+
+    private Long restaurantId;
+    private String name;
+
+    public MenuItem() {
+    }
 
     public MenuItem(String name) {
         this.name = name;
