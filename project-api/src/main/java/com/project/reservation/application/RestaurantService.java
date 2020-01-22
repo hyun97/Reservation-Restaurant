@@ -6,6 +6,7 @@ import com.project.reservation.domain.Restaurant;
 import com.project.reservation.domain.RestaurantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -18,10 +19,10 @@ public class RestaurantService {
     @Autowired
     MenuItemRepository menuItemRepository;
 
-    public RestaurantService(RestaurantRepository restaurantRepository, MenuItemRepository menuItemRepository) {
-        this.restaurantRepository = restaurantRepository;
-        this.menuItemRepository = menuItemRepository;
-    }
+//    public RestaurantService(RestaurantRepository restaurantRepository, MenuItemRepository menuItemRepository) {
+//        this.restaurantRepository = restaurantRepository;
+//        this.menuItemRepository = menuItemRepository;
+//    }
 
     public List<Restaurant> getRestaurants() {
         List<Restaurant> restaurants = restaurantRepository.findAll();
@@ -42,5 +43,12 @@ public class RestaurantService {
         Restaurant saved = restaurantRepository.save(restaurant);
 
         return saved;
+    }
+
+    @Transactional // DB에 변경값 저장
+    public void updateRestaurant(long id, String name, String address) {
+        Restaurant restaurant = restaurantRepository.findById(id).orElse(null);
+
+        restaurant.updateInformation(name, address);
     }
 }

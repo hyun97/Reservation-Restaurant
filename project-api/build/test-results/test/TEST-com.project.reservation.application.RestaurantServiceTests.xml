@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.reservation.application.RestaurantServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-22T01:39:55" hostname="DESKTOP-B7A5GTQ" time="0.769">
+  <properties/>
+  <testcase name="updateRestaurant()" classname="com.project.reservation.application.RestaurantServiceTests" time="0.769"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

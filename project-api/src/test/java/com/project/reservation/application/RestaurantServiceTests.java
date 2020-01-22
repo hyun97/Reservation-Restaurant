@@ -6,6 +6,7 @@ import com.project.reservation.domain.Restaurant;
 import com.project.reservation.domain.RestaurantRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -19,6 +20,7 @@ import static org.mockito.BDDMockito.given;
 
 class RestaurantServiceTests {
 
+    @InjectMocks
     private RestaurantService restaurantService;
 
     @Mock
@@ -33,8 +35,6 @@ class RestaurantServiceTests {
 
         mockRestaurantRepository();
         mockMenuItemRepository();
-
-        restaurantService = new RestaurantService(restaurantRepository, menuItemRepository);
     }
 
     private void mockRestaurantRepository() {
@@ -81,6 +81,18 @@ class RestaurantServiceTests {
         Restaurant created = restaurantService.addRestaurant(restaurant);
 
         assertThat(created.getId().compareTo(1234L));
+    }
+
+    @Test
+    public void updateRestaurant() {
+        Restaurant restaurant = new Restaurant(1004L, "Bob zip", "Seoul");
+
+        given(restaurantRepository.findById(1004L)).willReturn(Optional.of(restaurant));
+
+        restaurantService.updateRestaurant(1004L, "Sool zip", "Busan");
+
+        assertThat(restaurant.getName()).isEqualTo("Sool zip");
+        assertThat(restaurant.getAddress()).isEqualTo("Busan");
     }
 
 }
