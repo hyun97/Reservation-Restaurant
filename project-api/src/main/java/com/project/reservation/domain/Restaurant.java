@@ -16,7 +16,7 @@ public class Restaurant {
     private String name;
     private String address;
 
-    @Transient
+    @Transient // 사용되지 않는 임시
     private List<MenuItem> menuItems = new ArrayList<>();
 
     public Restaurant() {

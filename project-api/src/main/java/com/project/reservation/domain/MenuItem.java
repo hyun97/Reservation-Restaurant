@@ -8,7 +8,7 @@ import javax.persistence.Id;
 public class MenuItem {
 
     @Id // primary key
-    @GeneratedValue
+    @GeneratedValue // primary key 생성 방식
     private Long id;
 
     private Long restaurantId;
