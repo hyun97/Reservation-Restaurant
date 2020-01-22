@@ -13,15 +13,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/application/RestaurantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/application/RestaurantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/Restaurant$RestaurantBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/Restaurant$RestaurantBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/domain/Restaurant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/interfaces/RestaurantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/main/com/project/reservation/interfaces/RestaurantController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/test/com/project/reservation/application/RestaurantServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/test/com/project/reservation/application/RestaurantServiceTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/build/classes/java/test/com/project/reservation/interfaces/RestaurantControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/classes/java/test/com/project/reservation/interfaces/RestaurantControllerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/reports/tests/test/classes/com.project.reservation.domain.RestaurantTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/reports/tests/test/packages/com.project.reservation.domain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/test-results/test/TEST-com.project.reservation.domain.RestaurantTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/MenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/domain/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/application/RestaurantServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/application/RestaurantServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/domain/RestaurantTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/domain/RestaurantTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/interfaces/RestaurantControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-api/src/test/java/com/project/reservation/interfaces/RestaurantControllerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +148,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RestaurantControllerTests.detail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.RestaurantControllerTests.detail&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":project-api:cleanTest" />
+            <option value=":project-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RestaurantControllerTests.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,19 +241,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationRestaurantApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Reservation-Restaurant.project-api.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.reservation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.reservation.ReservationRestaurantApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReservationRestaurantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Reservation-Restaurant.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.reservation.ReservationRestaurantApplication" />
@@ -238,17 +253,17 @@
       <item itemvalue="Gradle.RestaurantServiceTests.updateRestaurant" />
       <item itemvalue="JUnit.Test All" />
       <item itemvalue="Spring Boot.ReservationRestaurantApplication" />
-      <item itemvalue="Spring Boot.ReservationRestaurantApplication (1)" />
       <item itemvalue="Gradle.RestaurantControllerTests.create" />
       <item itemvalue="Gradle.RestaurantTests.information" />
+      <item itemvalue="Gradle.RestaurantControllerTests.detail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RestaurantControllerTests.detail" />
         <item itemvalue="Gradle.RestaurantTests.information" />
         <item itemvalue="Gradle.RestaurantControllerTests.create" />
         <item itemvalue="Gradle.RestaurantServiceTests.updateRestaurant" />
         <item itemvalue="Gradle.RestaurantControllerTests.update" />
-        <item itemvalue="Spring Boot.ReservationRestaurantApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +298,7 @@
       <workItem from="1579649119799" duration="8604000" />
       <workItem from="1579688264418" duration="6486000" />
       <workItem from="1579694788636" duration="702000" />
-      <workItem from="1579695513235" duration="1065000" />
+      <workItem from="1579695513235" duration="3365000" />
     </task>
     <servers />
   </component>
@@ -311,22 +326,22 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1578637065092" />
-    <state width="1707" height="272" key="GridCell.Tab.0.bottom" timestamp="1579696581016">
+    <state width="1707" height="272" key="GridCell.Tab.0.bottom" timestamp="1579698762932">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="272" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1579696581016" />
-    <state width="1707" height="272" key="GridCell.Tab.0.center" timestamp="1579696581016">
+    <state width="1707" height="272" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1579698762932" />
+    <state width="1707" height="272" key="GridCell.Tab.0.center" timestamp="1579698762932">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="272" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1579696581016" />
-    <state width="1707" height="272" key="GridCell.Tab.0.left" timestamp="1579696581015">
+    <state width="1707" height="272" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1579698762932" />
+    <state width="1707" height="272" key="GridCell.Tab.0.left" timestamp="1579698762932">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="272" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1579696581015" />
-    <state width="1707" height="272" key="GridCell.Tab.0.right" timestamp="1579696581016">
+    <state width="1707" height="272" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1579698762932" />
+    <state width="1707" height="272" key="GridCell.Tab.0.right" timestamp="1579698762932">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="272" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1579696581016" />
+    <state width="1707" height="272" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1579698762932" />
     <state width="1707" height="272" key="GridCell.Tab.1.bottom" timestamp="1579657760791">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>

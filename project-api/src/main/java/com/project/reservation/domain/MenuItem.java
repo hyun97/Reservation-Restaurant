@@ -1,5 +1,7 @@
 package com.project.reservation.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -9,7 +11,9 @@ import javax.persistence.Id;
 
 @Entity // 테이블에 대응하는 클래스
 @Getter
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class MenuItem {
 
     @Id // primary key
@@ -17,9 +21,6 @@ public class MenuItem {
     private Long id;
 
     private Long restaurantId;
-    private String name;
 
-    public MenuItem(String name) {
-        this.name = name;
-    }
+    private String name;
 }
