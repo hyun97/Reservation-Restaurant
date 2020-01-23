@@ -10,5 +10,6 @@ public interface RestaurantRepository extends CrudRepository<Restaurant, Long> {
 
     Optional<Restaurant> findById(Long id);
 
+    @SuppressWarnings("unchecked")
     Restaurant save(Restaurant restaurant);
 }

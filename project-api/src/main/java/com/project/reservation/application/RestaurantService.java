@@ -20,17 +20,14 @@ public class RestaurantService {
     @Autowired
     MenuItemRepository menuItemRepository;
 
-//    public RestaurantService(RestaurantRepository restaurantRepository, MenuItemRepository menuItemRepository) {
-//        this.restaurantRepository = restaurantRepository;
-//        this.menuItemRepository = menuItemRepository;
-//    }
-
+    // 모든 레스토랑 리스트
     public List<Restaurant> getRestaurants() {
         List<Restaurant> restaurants = restaurantRepository.findAll();
 
         return restaurants;
     }
 
+    // 해당 id 레스토랑 반환
     public Restaurant getRestaurant(Long id) {
         Restaurant restaurant = restaurantRepository.findById(id)
                 .orElseThrow(() -> new RestaurantNotFoundException(id));
@@ -41,12 +38,14 @@ public class RestaurantService {
         return restaurant;
     }
 
+    // 레스토랑 추가
     public Restaurant addRestaurant(Restaurant restaurant) {
         Restaurant saved = restaurantRepository.save(restaurant);
 
         return saved;
     }
 
+    // 레스토랑 수정
     @Transactional // DB에 변경값 저장
     public void updateRestaurant(long id, String name, String address) {
         Restaurant restaurant = restaurantRepository.findById(id).orElse(null);

@@ -11,19 +11,18 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Transient;
 import javax.validation.constraints.NotEmpty;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Getter
-@Builder
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Restaurant {
 
     @Id
     @GeneratedValue
-    @Setter
     private Long id;
 
     @NotEmpty
@@ -35,16 +34,9 @@ public class Restaurant {
     @Transient // 사용되지 않는 임시
     private List<MenuItem> menuItems;
 
+
     public String getInformation() {
         return name + " in " + "Seoul";
-    }
-
-    public List<MenuItem> getMenuItems() {
-        return menuItems;
-    }
-
-    public void setMenuItems(List<MenuItem> menuItems) {
-        this.menuItems = new ArrayList<>(menuItems);
     }
 
     public void updateInformation(String name, String address) {
