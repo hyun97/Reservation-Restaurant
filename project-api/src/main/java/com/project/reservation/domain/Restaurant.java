@@ -32,7 +32,7 @@ public class Restaurant {
     @NotEmpty
     private String address;
 
-    @Transient // 사용되지 않는 임시
+    @Transient // db에 저장안함
     @JsonInclude(JsonInclude.Include.NON_NULL) // null 일 경우 표시하지 않음
     private List<MenuItem> menuItems;
 
