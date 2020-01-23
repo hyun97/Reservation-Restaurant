@@ -36,6 +36,9 @@ public class Restaurant {
     @JsonInclude(JsonInclude.Include.NON_NULL) // null 일 경우 표시하지 않음
     private List<MenuItem> menuItems;
 
+    @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private List<Review> reviews;
 
     public String getInformation() {
         return name + " in " + "Seoul";
@@ -45,5 +48,4 @@ public class Restaurant {
         this.name = name;
         this.address = address;
     }
-
 }
