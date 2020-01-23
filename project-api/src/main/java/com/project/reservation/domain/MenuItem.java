@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +21,7 @@ public class MenuItem {
     @GeneratedValue // primary key 생성 방식
     private Long id;
 
+    @Setter
     private Long restaurantId;
 
     private String name;
