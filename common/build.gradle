@@ -39,5 +39,10 @@ test {
     useJUnitPlatform()
 }
 
-bootJar { enabled = false }
-jar { enabled = true }
+jar {
+    enabled = true
+}
+
+bootJar {
+    enabled = false
+}
