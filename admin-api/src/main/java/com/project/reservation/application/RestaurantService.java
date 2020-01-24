@@ -1,12 +1,8 @@
 package com.project.reservation.application;
 
-import com.project.reservation.domain.MenuItem;
-import com.project.reservation.domain.MenuItemRepository;
 import com.project.reservation.domain.Restaurant;
 import com.project.reservation.domain.RestaurantNotFoundException;
 import com.project.reservation.domain.RestaurantRepository;
-import com.project.reservation.domain.Review;
-import com.project.reservation.domain.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,15 +13,10 @@ import java.util.List;
 public class RestaurantService {
 
     private RestaurantRepository restaurantRepository;
-    private MenuItemRepository menuItemRepository;
-    private ReviewRepository reviewRepository;
 
     @Autowired
-    public RestaurantService(RestaurantRepository restaurantRepository, MenuItemRepository menuItemRepository,
-                             ReviewRepository reviewRepository) {
+    public RestaurantService(RestaurantRepository restaurantRepository) {
         this.restaurantRepository = restaurantRepository;
-        this.menuItemRepository = menuItemRepository;
-        this.reviewRepository = reviewRepository;
     }
 
     // 모든 레스토랑 리스트
@@ -40,20 +31,12 @@ public class RestaurantService {
         Restaurant restaurant = restaurantRepository.findById(id)
                 .orElseThrow(() -> new RestaurantNotFoundException(id));
 
-        List<MenuItem> menuItems = menuItemRepository.findAllByRestaurantId(id);
-        restaurant.setMenuItems(menuItems);
-
-        List<Review> review = reviewRepository.findAllByRestaurantId(id);
-        restaurant.setReviews(review);
-
         return restaurant;
     }
 
     // 레스토랑 추가
     public Restaurant addRestaurant(Restaurant restaurant) {
-        Restaurant saved = restaurantRepository.save(restaurant);
-
-        return saved;
+        return restaurantRepository.save(restaurant);
     }
 
     // 레스토랑 수정
