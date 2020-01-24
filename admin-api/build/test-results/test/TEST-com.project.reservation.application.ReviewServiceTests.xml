@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.application.ReviewServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-24T07:28:17" hostname="DESKTOP-B7A5GTQ" time="0.029">
-  <properties/>
-  <testcase name="getReviews()" classname="com.project.reservation.application.ReviewServiceTests" time="0.029"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
