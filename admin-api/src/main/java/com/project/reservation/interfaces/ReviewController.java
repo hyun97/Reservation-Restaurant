@@ -11,8 +11,12 @@ import java.util.List;
 @RestController
 public class ReviewController {
 
-    @Autowired
     private ReviewService reviewService;
+
+    @Autowired
+    public ReviewController(ReviewService reviewService) {
+        this.reviewService = reviewService;
+    }
 
     @GetMapping("/reviews")
     public List<Review> list() {
