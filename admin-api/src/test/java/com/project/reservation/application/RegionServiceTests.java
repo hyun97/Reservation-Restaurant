@@ -10,7 +10,9 @@ import org.mockito.MockitoAnnotations;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.verify;
 
 class RegionServiceTests {
 
@@ -36,6 +38,15 @@ class RegionServiceTests {
         List<Region> regions = regionService.getRegions();
 
         Region region = regions.get(0);
+        assertThat(region.getName()).isEqualTo("Seoul");
+    }
+
+    @Test
+    public void addRegion() {
+        Region region = regionService.addRegion("Seoul");
+
+        verify(regionRepository).save(any());
+
         assertThat(region.getName()).isEqualTo("Seoul");
     }
 
