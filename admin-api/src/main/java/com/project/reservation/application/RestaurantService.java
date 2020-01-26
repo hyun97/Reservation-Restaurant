@@ -21,9 +21,7 @@ public class RestaurantService {
 
     // 모든 레스토랑 리스트
     public List<Restaurant> getRestaurants() {
-        List<Restaurant> restaurants = restaurantRepository.findAll();
-
-        return restaurants;
+        return restaurantRepository.findAll();
     }
 
     // 해당 id 레스토랑 정보 반환

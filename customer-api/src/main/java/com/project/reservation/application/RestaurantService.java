@@ -29,12 +29,9 @@ public class RestaurantService {
     }
 
     // 모든 레스토랑 리스트
-    public List<Restaurant> getRestaurants(String region) {
-        // TODO: region 으로 필터링
-
-        List<Restaurant> restaurants = restaurantRepository.findAllByAddressContaining(region);
-
-        return restaurants;
+    public List<Restaurant> getRestaurants(String region, long categoryId) {
+        return restaurantRepository
+                .findAllByAddressContainingAndCategoryId(region, categoryId);
     }
 
     // 해당 id 레스토랑 정보 반환
@@ -53,9 +50,7 @@ public class RestaurantService {
 
     // 레스토랑 추가
     public Restaurant addRestaurant(Restaurant restaurant) {
-        Restaurant saved = restaurantRepository.save(restaurant);
-
-        return saved;
+        return restaurantRepository.save(restaurant);
     }
 
     // 레스토랑 수정

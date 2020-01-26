@@ -19,15 +19,16 @@ public class RestaurantController {
     private RestaurantService restaurantService;
 
     @GetMapping("/restaurants")
-    public List<Restaurant> list(@RequestParam("region") String region) {
-        List<Restaurant> restaurants = restaurantService.getRestaurants(region);
-        return restaurants;
+    public List<Restaurant> list(
+            @RequestParam("region") String region,
+            @RequestParam("category") Long categoryId
+    ) {
+        return restaurantService.getRestaurants(region, categoryId);
     }
 
     @GetMapping("/restaurants/{id}")
     public Restaurant detail(@PathVariable("id") Long id) {
-        Restaurant restaurant = restaurantService.getRestaurant(id);
-        return restaurant;
+        return restaurantService.getRestaurant(id);
     }
 
 }

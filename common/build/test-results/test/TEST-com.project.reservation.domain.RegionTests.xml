@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.domain.RegionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-26T06:23:34" hostname="DESKTOP-B7A5GTQ" time="0.002">
+<testsuite name="com.project.reservation.domain.RegionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-26T08:34:10" hostname="DESKTOP-B7A5GTQ" time="0.003">
   <properties/>
-  <testcase name="creation()" classname="com.project.reservation.domain.RegionTests" time="0.002"/>
+  <testcase name="creation()" classname="com.project.reservation.domain.RegionTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
