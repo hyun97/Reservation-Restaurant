@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/build/classes/java/main/com/project/reservation/application/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/classes/java/main/com/project/reservation/application/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/build/classes/java/main/com/project/reservation/interfaces/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/classes/java/main/com/project/reservation/interfaces/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/build/classes/java/test/com/project/reservation/interfaces/UserControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/classes/java/test/com/project/reservation/interfaces/UserControllerTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.UserControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.UserControllerTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/index.html" afterDir="false" />
@@ -25,7 +26,14 @@
       <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/src/main/java/com/project/reservation/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/src/main/java/com/project/reservation/application/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/src/main/java/com/project/reservation/interfaces/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/src/main/java/com/project/reservation/interfaces/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-api/src/test/java/com/project/reservation/application/UserServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/src/test/java/com/project/reservation/application/UserServiceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-api/src/test/java/com/project/reservation/interfaces/UserControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/src/test/java/com/project/reservation/interfaces/UserControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +171,7 @@
       <recent name="com.project.reservation.application" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserControllerTests">
+  <component name="RunManager" selected="Gradle.Test All">
     <configuration name="Test All" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="env">
@@ -209,12 +217,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserControllerTests.list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserControllerTests.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.UserControllerTests.list&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.UserControllerTests.create&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -229,12 +237,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserServiceTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserControllerTests.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.UserControllerTests.update&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -249,19 +257,39 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserTests.creation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTests.addUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.domain.UserTests.creation&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.addUser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":common:cleanTest" />
-            <option value=":common:test" />
+            <option value=":admin-api:cleanTest" />
+            <option value=":admin-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.updateUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.updateUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":admin-api:cleanTest" />
+            <option value=":admin-api:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -302,19 +330,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Reservation-Restaurant.customer-api.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.reservation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.reservation.CustomerApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReservationRestaurantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Reservation-Restaurant.admin-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.reservation.AdminApiApplication" />
@@ -328,19 +343,19 @@
       <item itemvalue="JUnit.Test customer-api" />
       <item itemvalue="JUnit.Test common" />
       <item itemvalue="Spring Boot.ReservationRestaurantApplication" />
-      <item itemvalue="Spring Boot.CustomerApiApplication" />
       <item itemvalue="Gradle.UserControllerTests" />
-      <item itemvalue="Gradle.UserTests.creation" />
-      <item itemvalue="Gradle.UserControllerTests.list" />
-      <item itemvalue="Gradle.UserServiceTests" />
+      <item itemvalue="Gradle.UserControllerTests.create" />
+      <item itemvalue="Gradle.UserServiceTests.addUser" />
+      <item itemvalue="Gradle.UserControllerTests.update" />
+      <item itemvalue="Gradle.UserServiceTests.updateUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserControllerTests.update" />
+        <item itemvalue="Gradle.UserServiceTests.updateUser" />
+        <item itemvalue="Gradle.UserServiceTests.addUser" />
+        <item itemvalue="Gradle.UserControllerTests.create" />
         <item itemvalue="Gradle.UserControllerTests" />
-        <item itemvalue="Gradle.UserServiceTests" />
-        <item itemvalue="Gradle.UserControllerTests.list" />
-        <item itemvalue="Gradle.UserTests.creation" />
-        <item itemvalue="Spring Boot.CustomerApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +402,7 @@
       <workItem from="1580020846459" duration="219000" />
       <workItem from="1580021084533" duration="50000" />
       <workItem from="1580021215149" duration="6236000" />
-      <workItem from="1580029090027" duration="5981000" />
+      <workItem from="1580029090027" duration="9352000" />
     </task>
     <servers />
   </component>
@@ -447,22 +462,22 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1580021771069" />
-    <state width="1707" height="274" key="GridCell.Tab.0.bottom" timestamp="1580037306395">
+    <state width="1707" height="393" key="GridCell.Tab.0.bottom" timestamp="1580044602216">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="274" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580037306395" />
-    <state width="1707" height="274" key="GridCell.Tab.0.center" timestamp="1580037306395">
+    <state width="1707" height="393" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580044602216" />
+    <state width="1707" height="393" key="GridCell.Tab.0.center" timestamp="1580044602216">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="274" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580037306395" />
-    <state width="1707" height="274" key="GridCell.Tab.0.left" timestamp="1580037306395">
+    <state width="1707" height="393" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580044602216" />
+    <state width="1707" height="393" key="GridCell.Tab.0.left" timestamp="1580044602216">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="274" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580037306395" />
-    <state width="1707" height="274" key="GridCell.Tab.0.right" timestamp="1580037306395">
+    <state width="1707" height="393" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580044602216" />
+    <state width="1707" height="393" key="GridCell.Tab.0.right" timestamp="1580044602216">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="274" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580037306395" />
+    <state width="1707" height="393" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580044602216" />
     <state width="1707" height="274" key="GridCell.Tab.1.bottom" timestamp="1580029066909">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>

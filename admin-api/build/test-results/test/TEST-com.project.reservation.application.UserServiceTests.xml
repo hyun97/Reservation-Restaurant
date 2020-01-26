@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.reservation.application.UserServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-01-26T13:16:52" hostname="DESKTOP-B7A5GTQ" time="0.035">
+  <properties/>
+  <testcase name="addUser()" classname="com.project.reservation.application.UserServiceTests" time="0.029"/>
+  <testcase name="updateUser()" classname="com.project.reservation.application.UserServiceTests" time="0.002"/>
+  <testcase name="getUsers()" classname="com.project.reservation.application.UserServiceTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
