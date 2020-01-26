@@ -49,7 +49,7 @@ class UserServiceTests {
 
     @Test
     public void addUser() {
-        String email = "admin.example.com";
+        String email = "admin@example.com";
         String name = "Administrator";
 
         User mockUser = User.builder().email(email).name(name).build();
@@ -64,7 +64,7 @@ class UserServiceTests {
     @Test
     public void updateUser() {
         Long id = 1004L;
-        String email = "admin.example.com";
+        String email = "admin@example.com";
         String name = "Superman";
         Long level = 3L;
 
@@ -83,6 +83,27 @@ class UserServiceTests {
 
         assertThat(user.getName()).isEqualTo("Superman");
         assertThat(user.isAdmin()).isTrue();
+    }
+
+    @Test
+    public void deactivateUser() {
+        Long id = 1004L;
+
+        User mockUser = User.builder()
+                .id(id)
+                .email("admin@example.com")
+                .name("Administrator")
+                .level(3L)
+                .build();
+
+        given(userRepository.findById(id)).willReturn(Optional.of(mockUser));
+
+        User user = userService.deactivateUser(1004L);
+
+        verify(userRepository).findById(1004L);
+
+        assertThat(user.isAdmin()).isFalse();
+        assertThat(user.isActive()).isFalse();
     }
 
 }
