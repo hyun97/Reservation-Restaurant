@@ -32,7 +32,7 @@ public class RegionController {
     public ResponseEntity<?> create(@RequestBody Region resource) throws URISyntaxException {
         Region region = regionService.addRegion(resource.getName());
 
-        String url = "/regions/1/" + region.getId();
+        String url = "/regions/" + region.getId();
         return ResponseEntity.created(new URI(url)).body("{}");
     }
 }
