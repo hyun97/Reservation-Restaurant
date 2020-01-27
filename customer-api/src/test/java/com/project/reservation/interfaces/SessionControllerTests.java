@@ -4,6 +4,7 @@ import com.project.reservation.application.EmailNotExistedException;
 import com.project.reservation.application.PasswordWrongException;
 import com.project.reservation.application.UserService;
 import com.project.reservation.domain.User;
+import com.project.reservation.utils.JwtUtil;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,9 @@ class SessionControllerTests {
     private MockMvc mvc;
 
     @MockBean
+    private JwtUtil jwtUtil;
+
+    @MockBean
     private UserService userService;
 
     @Test
@@ -43,13 +47,17 @@ class SessionControllerTests {
 
         given(userService.authenticate(email, password)).willReturn(mockUser);
 
+        given(jwtUtil.createToken(id, name))
+                .willReturn("header.payload.signature");
+
         mvc.perform(post("/session")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"email\":\"tester@example.com\", \"password\":\"test\"}"))
                 .andExpect(status().isCreated())
                 .andExpect(header().string("location", "/session"))
-                .andExpect(content().string(containsString("{\"accessToken\":\"")))
-                .andExpect(content().string(containsString(".")));
+                .andExpect(content().string(
+                        containsString("{\"accessToken\":\"header.payload.signature\"}")
+                ));
 
         verify(userService).authenticate(eq("tester@example.com"), eq("test"));
     }

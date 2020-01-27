@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.138s</div>
+<div class="counter">0.124s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,32 +79,32 @@
 </thead>
 <tr>
 <td class="success">createWithInvalidData()</td>
-<td class="success">0.080s</td>
+<td class="success">0.076s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">detailWithExisted()</td>
-<td class="success">0.011s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">detailWithNotExisted()</td>
-<td class="success">0.015s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">list()</td>
-<td class="success">0.013s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">updateWithInvalidData()</td>
 <td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">detailWithNotExisted()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">list()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateWithInvalidData()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">updateWithValidData()</td>
-<td class="success">0.012s</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -112,12 +112,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-01-27 17:52:41.255  INFO 9628 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.RestaurantControllerTests], using SpringBootContextLoader
-2020-01-27 17:52:41.257  INFO 9628 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.RestaurantControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-01-27 17:52:41.258  INFO 9628 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.RestaurantControllerTests]: RestaurantControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-01-27 17:52:41.262  INFO 9628 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.AdminApiApplication for test class com.project.reservation.interfaces.RestaurantControllerTests
-2020-01-27 17:52:41.262  INFO 9628 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-01-27 17:52:41.263  INFO 9628 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d0ff48, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ed2683, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@76e1c473, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67c67669, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60ebff66, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ddf04c6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@75659b52, org.springframework.test.context.event.EventPublishingTestExecutionListener@21c4dea9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e6b1538, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6b67db07, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@32817232, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3537c35d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@73b3d216]
+<pre>2020-01-28 00:07:55.350  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.RestaurantControllerTests], using SpringBootContextLoader
+2020-01-28 00:07:55.351  INFO 2752 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.RestaurantControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-28 00:07:55.351  INFO 2752 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.RestaurantControllerTests]: RestaurantControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-28 00:07:55.358  INFO 2752 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.AdminApiApplication for test class com.project.reservation.interfaces.RestaurantControllerTests
+2020-01-28 00:07:55.358  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-01-28 00:07:55.359  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1da4e504, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a9b1f3c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2dbf18a5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24a9fe6e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e9fb33a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1cff3d2a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49506420, org.springframework.test.context.event.EventPublishingTestExecutionListener@2261b9ea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4104d8ff, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2477ab98, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6eccba52, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@414de088, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@26e91b7e]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -127,15 +127,15 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-01-27 17:52:41.294  INFO 9628 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : Starting RestaurantControllerTests on DESKTOP-B7A5GTQ with PID 9628 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\admin-api)
-2020-01-27 17:52:41.294  INFO 9628 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : The following profiles are active: test
-2020-01-27 17:52:41.601  INFO 9628 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-27 17:52:41.764  INFO 9628 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-01-27 17:52:41.764  INFO 9628 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-01-27 17:52:41.774  INFO 9628 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
-2020-01-27 17:52:41.786  INFO 9628 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : Started RestaurantControllerTests in 0.521 seconds (JVM running for 14.902)
-2020-01-27 17:52:41.868  WARN 9628 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity&lt;?&gt; com.project.reservation.interfaces.RestaurantController.create(com.project.reservation.domain.Restaurant) throws java.net.URISyntaxException with 3 errors: [Field error in object 'restaurant' on field 'address': rejected value []; codes [NotEmpty.restaurant.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.address,address]; arguments []; default message [address]]; default message [must not be empty]] [Field error in object 'restaurant' on field 'name': rejected value []; codes [NotEmpty.restaurant.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.name,name]; arguments []; default message [name]]; default message [must not be empty]] [Field error in object 'restaurant' on field 'categoryId': rejected value [null]; codes [NotNull.restaurant.categoryId,NotNull.categoryId,NotNull.java.lang.Long,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.categoryId,categoryId]; arguments []; default message [categoryId]]; default message [must not be null]] ]
-2020-01-27 17:52:41.908  WARN 9628 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public java.lang.String com.project.reservation.interfaces.RestaurantController.update(java.lang.Long,com.project.reservation.domain.Restaurant) with 2 errors: [Field error in object 'restaurant' on field 'address': rejected value []; codes [NotEmpty.restaurant.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.address,address]; arguments []; default message [address]]; default message [must not be empty]] [Field error in object 'restaurant' on field 'name': rejected value []; codes [NotEmpty.restaurant.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.name,name]; arguments []; default message [name]]; default message [must not be empty]] ]
+2020-01-28 00:07:55.384  INFO 2752 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : Starting RestaurantControllerTests on DESKTOP-B7A5GTQ with PID 2752 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\admin-api)
+2020-01-28 00:07:55.385  INFO 2752 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : No active profile set, falling back to default profiles: default
+2020-01-28 00:07:55.720  INFO 2752 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-28 00:07:55.860  INFO 2752 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-01-28 00:07:55.860  INFO 2752 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-01-28 00:07:55.869  INFO 2752 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2020-01-28 00:07:55.883  INFO 2752 --- [    Test worker] c.p.r.i.RestaurantControllerTests        : Started RestaurantControllerTests in 0.52 seconds (JVM running for 10.163)
+2020-01-28 00:07:55.959  WARN 2752 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity&lt;?&gt; com.project.reservation.interfaces.RestaurantController.create(com.project.reservation.domain.Restaurant) throws java.net.URISyntaxException with 3 errors: [Field error in object 'restaurant' on field 'address': rejected value []; codes [NotEmpty.restaurant.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.address,address]; arguments []; default message [address]]; default message [must not be empty]] [Field error in object 'restaurant' on field 'categoryId': rejected value [null]; codes [NotNull.restaurant.categoryId,NotNull.categoryId,NotNull.java.lang.Long,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.categoryId,categoryId]; arguments []; default message [categoryId]]; default message [must not be null]] [Field error in object 'restaurant' on field 'name': rejected value []; codes [NotEmpty.restaurant.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.name,name]; arguments []; default message [name]]; default message [must not be empty]] ]
+2020-01-28 00:07:55.990  WARN 2752 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public java.lang.String com.project.reservation.interfaces.RestaurantController.update(java.lang.Long,com.project.reservation.domain.Restaurant) with 2 errors: [Field error in object 'restaurant' on field 'address': rejected value []; codes [NotEmpty.restaurant.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.address,address]; arguments []; default message [address]]; default message [must not be empty]] [Field error in object 'restaurant' on field 'name': rejected value []; codes [NotEmpty.restaurant.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [restaurant.name,name]; arguments []; default message [name]]; default message [must not be empty]] ]
 </pre>
 </span>
 </div>
@@ -147,7 +147,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 27. 오후 5:52:43</p>
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 28. 오전 12:07:57</p>
 </div>
 </div>
 </body>

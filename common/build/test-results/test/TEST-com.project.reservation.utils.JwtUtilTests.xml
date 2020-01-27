@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.utils.JwtUtilTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-27T13:42:59" hostname="DESKTOP-B7A5GTQ" time="0.068">
+<testsuite name="com.project.reservation.utils.JwtUtilTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-27T15:07:59" hostname="DESKTOP-B7A5GTQ" time="0.246">
   <properties/>
-  <testcase name="createToken()" classname="com.project.reservation.utils.JwtUtilTests" time="0.068"/>
+  <testcase name="createToken()" classname="com.project.reservation.utils.JwtUtilTests" time="0.246"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
