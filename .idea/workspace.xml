@@ -13,80 +13,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.AdminApiApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.AdminApiApplicationTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.CategoryServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.CategoryServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.MenuItemServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.MenuItemServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.RegionServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.RegionServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.RestaurantServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.RestaurantServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.ReviewServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.ReviewServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.UserServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.application.UserServiceTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.CategoryControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.CategoryControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.MenuItemControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.MenuItemControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RegionControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RegionControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RestaurantControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RestaurantControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.ReviewControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.ReviewControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.UserControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/classes/com.project.reservation.interfaces.UserControllerTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.application.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.AdminApiApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.AdminApiApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.CategoryServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.CategoryServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.MenuItemServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.MenuItemServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.RegionServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.RegionServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.RestaurantServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.RestaurantServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.ReviewServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.ReviewServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.UserServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.application.UserServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.CategoryControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.CategoryControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.MenuItemControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.MenuItemControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.RegionControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.RegionControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.RestaurantControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.RestaurantControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.ReviewControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.ReviewControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.UserControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/TEST-com.project.reservation.interfaces.UserControllerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/admin-api/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/project/reservation/domain/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.CategoryTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.CategoryTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.RegionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.RegionTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.RestaurantTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.RestaurantTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.UserTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/com.project.reservation.domain.UserTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/com.project.reservation.domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/com.project.reservation.domain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.CategoryTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.CategoryTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.RegionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.RegionTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.RestaurantTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.RestaurantTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.UserTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-com.project.reservation.domain.UserTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.CustomerApiApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.CategoryServiceTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.RegionServiceTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.RestaurantServiceTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.ReviewServiceTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.CategoryControllerTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RegionControllerTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.RestaurantControllerTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.ReviewControllerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/project/reservation/domain/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.UserServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.application.UserServiceTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.application.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.CustomerApiApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.CategoryServiceTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.RegionServiceTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.RestaurantServiceTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.ReviewServiceTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.CategoryControllerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.RegionControllerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.RestaurantControllerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.ReviewControllerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.UserServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.application.UserServiceTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/SecurityJavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/SecurityJavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/application/UserServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/application/UserServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,8 +93,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -225,7 +165,7 @@
       <recent name="C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserServiceTests">
+  <component name="RunManager" selected="Gradle.Test All">
     <configuration name="Test All" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="env">
@@ -331,19 +271,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserTests.creation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTests.registerUserWithExistedEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.domain.UserTests.creation&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.registerUserWithExistedEmail&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":common:cleanTest" />
-            <option value=":common:test" />
+            <option value=":customer-api:cleanTest" />
+            <option value=":customer-api:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -401,7 +341,6 @@
     <list>
       <item itemvalue="Gradle.Test All" />
       <item itemvalue="Gradle.UserServiceTests.deactivateUser" />
-      <item itemvalue="Gradle.UserTests.creation" />
       <item itemvalue="JUnit.Test admin-api" />
       <item itemvalue="JUnit.Test customer-api" />
       <item itemvalue="JUnit.Test common" />
@@ -410,14 +349,15 @@
       <item itemvalue="Gradle.UserControllerTests.create" />
       <item itemvalue="Gradle.UserServiceTests.registerUser" />
       <item itemvalue="Gradle.UserServiceTests" />
+      <item itemvalue="Gradle.UserServiceTests.registerUserWithExistedEmail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserServiceTests.registerUserWithExistedEmail" />
         <item itemvalue="Gradle.UserServiceTests" />
         <item itemvalue="Gradle.UserServiceTests.registerUser" />
         <item itemvalue="Gradle.UserControllerTests.create" />
         <item itemvalue="Gradle.UserServiceTests.deactivateUser" />
-        <item itemvalue="Gradle.UserTests.creation" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +405,7 @@
       <workItem from="1580021084533" duration="50000" />
       <workItem from="1580021215149" duration="6236000" />
       <workItem from="1580029090027" duration="11836000" />
-      <workItem from="1580090440352" duration="4285000" />
+      <workItem from="1580090440352" duration="6635000" />
     </task>
     <servers />
   </component>
@@ -525,38 +465,38 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1580021771069" />
-    <state width="1707" height="259" key="GridCell.Tab.0.bottom" timestamp="1580094728943">
+    <state width="1707" height="259" key="GridCell.Tab.0.bottom" timestamp="1580099549062">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580094728943" />
-    <state width="1707" height="259" key="GridCell.Tab.0.center" timestamp="1580094728943">
+    <state width="1707" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580099549062" />
+    <state width="1707" height="259" key="GridCell.Tab.0.center" timestamp="1580099549061">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580094728943" />
-    <state width="1707" height="259" key="GridCell.Tab.0.left" timestamp="1580094728943">
+    <state width="1707" height="259" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580099549061" />
+    <state width="1707" height="259" key="GridCell.Tab.0.left" timestamp="1580099549061">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580094728943" />
-    <state width="1707" height="259" key="GridCell.Tab.0.right" timestamp="1580094728943">
+    <state width="1707" height="259" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580099549061" />
+    <state width="1707" height="259" key="GridCell.Tab.0.right" timestamp="1580099549062">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580094728943" />
-    <state width="1707" height="259" key="GridCell.Tab.1.bottom" timestamp="1580092804557">
+    <state width="1707" height="259" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580099549062" />
+    <state width="1707" height="259" key="GridCell.Tab.1.bottom" timestamp="1580099426548">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.1.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580092804557" />
-    <state width="1707" height="259" key="GridCell.Tab.1.center" timestamp="1580092804557">
+    <state width="1707" height="259" key="GridCell.Tab.1.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580099426548" />
+    <state width="1707" height="259" key="GridCell.Tab.1.center" timestamp="1580099426548">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.1.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580092804557" />
-    <state width="1707" height="259" key="GridCell.Tab.1.left" timestamp="1580092804557">
+    <state width="1707" height="259" key="GridCell.Tab.1.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580099426548" />
+    <state width="1707" height="259" key="GridCell.Tab.1.left" timestamp="1580099426548">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.1.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580092804557" />
-    <state width="1707" height="259" key="GridCell.Tab.1.right" timestamp="1580092804557">
+    <state width="1707" height="259" key="GridCell.Tab.1.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580099426548" />
+    <state width="1707" height="259" key="GridCell.Tab.1.right" timestamp="1580099426548">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580092804557" />
+    <state width="1707" height="259" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580099426548" />
     <state x="355" y="160" key="SettingsEditor" timestamp="1580021772699">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
