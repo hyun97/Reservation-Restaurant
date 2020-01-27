@@ -3,6 +3,7 @@ package com.project.reservation.interfaces;
 import com.project.reservation.application.SessionResponseDTO;
 import com.project.reservation.application.UserService;
 import com.project.reservation.domain.User;
+import com.project.reservation.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,10 +17,12 @@ import java.net.URISyntaxException;
 public class SessionController {
 
     private UserService userService;
+    private JwtUtil jwtUtil;
 
     @Autowired
-    public SessionController(UserService userService) {
+    public SessionController(UserService userService, JwtUtil jwtUtil) {
         this.userService = userService;
+        this.jwtUtil = jwtUtil;
     }
 
     @PostMapping("/session")
@@ -30,7 +33,7 @@ public class SessionController {
 
         User user = userService.authenticate(email, password);
 
-        String accessToken = user.getAccessToken();
+        String accessToken = jwtUtil.createToken(user.getId(), user.getName());
 
         return ResponseEntity.created(new URI("/session")).body(
                 SessionResponseDTO.builder()
