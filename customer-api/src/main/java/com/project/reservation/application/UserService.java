@@ -16,7 +16,6 @@ public class UserService {
     private UserRepository userRepository;
     private PasswordEncoder passwordEncoder;
 
-    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Autowired
     public UserService(UserRepository userRepository,
                        PasswordEncoder passwordEncoder) {

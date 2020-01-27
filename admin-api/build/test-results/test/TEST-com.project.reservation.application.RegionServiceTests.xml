@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.application.RegionServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-27T04:31:01" hostname="DESKTOP-B7A5GTQ" time="0.046">
+<testsuite name="com.project.reservation.application.RegionServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-27T08:52:37" hostname="DESKTOP-B7A5GTQ" time="0.043">
   <properties/>
-  <testcase name="addRegion()" classname="com.project.reservation.application.RegionServiceTests" time="0.043"/>
+  <testcase name="addRegion()" classname="com.project.reservation.application.RegionServiceTests" time="0.039"/>
   <testcase name="getRegions()" classname="com.project.reservation.application.RegionServiceTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
