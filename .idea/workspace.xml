@@ -13,22 +13,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/SessionDTO$SessionDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/SessionDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/application/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/SessionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/SessionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/RestaurantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/main/com/project/reservation/interfaces/RestaurantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/application/UserServiceTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/interfaces/SessionControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/classes/java/test/com/project/reservation/interfaces/SessionControllerTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.SessionControllerTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.SessionControllerTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/classes/com.project.reservation.interfaces.SessionControllerTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.SessionControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.SessionControllerTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/reports/tests/test/packages/com.project.reservation.interfaces.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/TEST-com.project.reservation.interfaces.SessionControllerTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/SessionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/SessionResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/application/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/SessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/SessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/interfaces/SessionControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/interfaces/SessionControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/main/java/com/project/reservation/interfaces/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/application/UserServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation/application/UserServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +127,11 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/customer-api/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/customer-api/src/test/java/com/project/reservation" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -168,33 +166,13 @@
       <recent name="C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SessionControllerTests">
+  <component name="RunManager" selected="Gradle.UserServiceTests.authenticateWithWrongPassword">
     <configuration name="SessionControllerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.SessionControllerTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":customer-api:cleanTest" />
-            <option value=":customer-api:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SessionControllerTests.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.interfaces.SessionControllerTests.create&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -274,12 +252,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserServiceTests.registerUserWithExistedEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTests.authenticateWithValidAttribute" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.registerUserWithExistedEmail&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.authenticateWithValidAttribute&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":customer-api:cleanTest" />
+            <option value=":customer-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.authenticateWithWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.project.reservation.application.UserServiceTests.authenticateWithWrongPassword&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -343,24 +341,24 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Test All" />
+      <item itemvalue="Gradle.SessionControllerTests" />
+      <item itemvalue="Gradle.SessionControllerTests.createWithInvalidAttribute" />
+      <item itemvalue="Gradle.UserServiceTests.authenticateWithValidAttribute" />
+      <item itemvalue="Gradle.UserServiceTests" />
+      <item itemvalue="Gradle.UserServiceTests.authenticateWithWrongPassword" />
       <item itemvalue="JUnit.Test admin-api" />
       <item itemvalue="JUnit.Test customer-api" />
       <item itemvalue="JUnit.Test common" />
       <item itemvalue="Spring Boot.ReservationRestaurantApplication" />
       <item itemvalue="Spring Boot.CustomerApiApplication" />
-      <item itemvalue="Gradle.UserServiceTests" />
-      <item itemvalue="Gradle.UserServiceTests.registerUserWithExistedEmail" />
-      <item itemvalue="Gradle.SessionControllerTests.create" />
-      <item itemvalue="Gradle.SessionControllerTests" />
-      <item itemvalue="Gradle.SessionControllerTests.createWithInvalidAttribute" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserServiceTests.authenticateWithWrongPassword" />
+        <item itemvalue="Gradle.UserServiceTests" />
+        <item itemvalue="Gradle.UserServiceTests.authenticateWithValidAttribute" />
         <item itemvalue="Gradle.SessionControllerTests" />
         <item itemvalue="Gradle.SessionControllerTests.createWithInvalidAttribute" />
-        <item itemvalue="Gradle.SessionControllerTests.create" />
-        <item itemvalue="Gradle.UserServiceTests.registerUserWithExistedEmail" />
-        <item itemvalue="Gradle.UserServiceTests" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +406,12 @@
       <workItem from="1580021084533" duration="50000" />
       <workItem from="1580021215149" duration="6236000" />
       <workItem from="1580029090027" duration="11836000" />
-      <workItem from="1580090440352" duration="11258000" />
+      <workItem from="1580090440352" duration="15086000" />
+      <workItem from="1580110201346" duration="671000" />
+      <workItem from="1580111025664" duration="256000" />
+      <workItem from="1580111316811" duration="56000" />
+      <workItem from="1580111436338" duration="108000" />
+      <workItem from="1580111565059" duration="62000" />
     </task>
     <servers />
   </component>
@@ -420,10 +423,10 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="446" y="177" key="#JSON/0.0.1707.1036@0.0.1707.1036" timestamp="1579739455856" />
-    <state x="446" y="177" key="#Notifications" timestamp="1579736279649">
+    <state x="446" y="177" key="#Notifications" timestamp="1580110866876">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="446" y="177" key="#Notifications/0.0.1707.1036@0.0.1707.1036" timestamp="1579736279649" />
+    <state x="446" y="177" key="#Notifications/0.0.1707.1036@0.0.1707.1036" timestamp="1580110866876" />
     <state x="446" y="177" key="#Project_Structure" timestamp="1578636406074">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
@@ -444,10 +447,10 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="93" y="93" width="1521" height="851" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1580032217780" />
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1580105565386">
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1580108818085">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1580105565386" />
+    <state x="659" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1580108818085" />
     <state x="584" y="294" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580106075939">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
@@ -472,22 +475,22 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="274" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1580021771069" />
-    <state width="1707" height="259" key="GridCell.Tab.0.bottom" timestamp="1580106257127">
+    <state width="1707" height="259" key="GridCell.Tab.0.bottom" timestamp="1580109431701">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580106257127" />
-    <state width="1707" height="259" key="GridCell.Tab.0.center" timestamp="1580106257126">
+    <state width="1707" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1580109431701" />
+    <state width="1707" height="259" key="GridCell.Tab.0.center" timestamp="1580109431701">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580106257126" />
-    <state width="1707" height="259" key="GridCell.Tab.0.left" timestamp="1580106257126">
+    <state width="1707" height="259" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1580109431701" />
+    <state width="1707" height="259" key="GridCell.Tab.0.left" timestamp="1580109431699">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580106257126" />
-    <state width="1707" height="259" key="GridCell.Tab.0.right" timestamp="1580106257126">
+    <state width="1707" height="259" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1580109431699" />
+    <state width="1707" height="259" key="GridCell.Tab.0.right" timestamp="1580109431701">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1707" height="259" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580106257126" />
+    <state width="1707" height="259" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580109431701" />
     <state width="1707" height="259" key="GridCell.Tab.1.bottom" timestamp="1580099426548">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
@@ -504,10 +507,10 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state width="1707" height="259" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1580099426548" />
-    <state x="355" y="160" key="SettingsEditor" timestamp="1580021772699">
+    <state x="180" y="106" width="1400" height="848" key="SettingsEditor" timestamp="1580111543964">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="355" y="160" key="SettingsEditor/0.0.1707.1036@0.0.1707.1036" timestamp="1580021772699" />
+    <state x="180" y="106" width="1400" height="848" key="SettingsEditor/0.0.1707.1036@0.0.1707.1036" timestamp="1580111543964" />
     <state x="653" y="296" key="chooseDestDirectoryDialog" timestamp="1580106080566">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
@@ -520,10 +523,10 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="612" y="236" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1580101189276" />
-    <state x="584" y="270" key="extract.method.dialog" timestamp="1579776032173">
+    <state x="584" y="270" key="extract.method.dialog" timestamp="1580108159993">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state x="584" y="270" key="extract.method.dialog/0.0.1707.1036@0.0.1707.1036" timestamp="1579776032173" />
+    <state x="584" y="270" key="extract.method.dialog/0.0.1707.1036@0.0.1707.1036" timestamp="1580108159993" />
     <state x="534" y="247" width="639" height="542" key="find.popup" timestamp="1579696376273">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
