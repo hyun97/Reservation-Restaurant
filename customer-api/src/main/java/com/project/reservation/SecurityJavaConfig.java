@@ -13,8 +13,8 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .cors().disable()
-                .csrf().disable()
-                .formLogin().disable()
+                .csrf().disable() // csrf 프로텍션 비활성화
+                .formLogin().disable() // 기본 login 사용안함
                 .headers().frameOptions().disable(); // iframe 사용가능
     }
 
