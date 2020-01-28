@@ -1,4 +1,4 @@
-package com.project.reservation.application;
+package com.project.reservation.interfaces;
 
 import lombok.Builder;
 import lombok.Data;

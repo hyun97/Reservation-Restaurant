@@ -1,6 +1,5 @@
 package com.project.reservation.interfaces;
 
-import com.project.reservation.application.SessionResponseDTO;
 import com.project.reservation.application.UserService;
 import com.project.reservation.domain.User;
 import com.project.reservation.utils.JwtUtil;
