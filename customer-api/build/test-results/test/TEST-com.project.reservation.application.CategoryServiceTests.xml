@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.application.CategoryServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-28T01:59:58" hostname="DESKTOP-B7A5GTQ" time="0.708">
+<testsuite name="com.project.reservation.application.CategoryServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-28T02:35:13" hostname="DESKTOP-B7A5GTQ" time="0.764">
   <properties/>
-  <testcase name="getCategories()" classname="com.project.reservation.application.CategoryServiceTests" time="0.708"/>
+  <testcase name="getCategories()" classname="com.project.reservation.application.CategoryServiceTests" time="0.764"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

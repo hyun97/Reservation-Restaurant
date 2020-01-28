@@ -52,6 +52,7 @@ public class JwtAuthenticationFilter extends BasicAuthenticationFilter {
 
         Authentication authentication =
                 new UsernamePasswordAuthenticationToken(claims, null);
+
         return authentication;
     }
 

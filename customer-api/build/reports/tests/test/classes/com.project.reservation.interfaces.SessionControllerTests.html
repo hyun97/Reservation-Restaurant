@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.044s</div>
+<div class="counter">0.048s</div>
 <p>duration</p>
 </div>
 </td>
@@ -84,12 +84,12 @@
 </tr>
 <tr>
 <td class="success">createWithValidAttribute()</td>
-<td class="success">0.018s</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createWithWrongPassword()</td>
-<td class="success">0.012s</td>
+<td class="success">0.015s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,12 +97,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-01-28 11:00:11.137  INFO 8984 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.SessionControllerTests], using SpringBootContextLoader
-2020-01-28 11:00:11.138  INFO 8984 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.SessionControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-01-28 11:00:11.138  INFO 8984 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.SessionControllerTests]: SessionControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-01-28 11:00:11.141  INFO 8984 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.CustomerApiApplication for test class com.project.reservation.interfaces.SessionControllerTests
-2020-01-28 11:00:11.141  INFO 8984 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-01-28 11:00:11.142  INFO 8984 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@389dc5f5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7fabb2bb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@604c6098, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49e518bc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f81ce18, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d9d8939, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e5676b2, org.springframework.test.context.event.EventPublishingTestExecutionListener@5f17a93c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e775dc8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ff2d17e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@129cc7d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7020d2f2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4cd4823]
+<pre>2020-01-28 11:35:27.927  INFO 17020 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.SessionControllerTests], using SpringBootContextLoader
+2020-01-28 11:35:27.928  INFO 17020 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.SessionControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-28 11:35:27.928  INFO 17020 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.SessionControllerTests]: SessionControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-28 11:35:27.934  INFO 17020 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.CustomerApiApplication for test class com.project.reservation.interfaces.SessionControllerTests
+2020-01-28 11:35:27.934  INFO 17020 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-01-28 11:35:27.935  INFO 17020 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@178b20f5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@63da7c7d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@543c560f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20e12e30, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e232e51, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5eaa8e7c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68903788, org.springframework.test.context.event.EventPublishingTestExecutionListener@41290404, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@360ffbd6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3c5c4a05, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55990671, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c9921e2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1501b0ec]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -112,18 +112,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-01-28 11:00:11.177  INFO 8984 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : Starting SessionControllerTests on DESKTOP-B7A5GTQ with PID 8984 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\customer-api)
-2020-01-28 11:00:11.177  INFO 8984 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : The following profiles are active: test
-2020-01-28 11:00:11.538  INFO 8984 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2020-01-28 11:35:27.974  INFO 17020 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : Starting SessionControllerTests on DESKTOP-B7A5GTQ with PID 17020 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\customer-api)
+2020-01-28 11:35:27.974  INFO 17020 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : The following profiles are active: test
+2020-01-28 11:35:28.391  INFO 17020 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 607fc19b-e9a9-47c7-9820-da668cda89f0
+Using generated security password: 109170f0-da8d-464e-b5a0-266f212be9e1
 
-2020-01-28 11:00:11.609  INFO 8984 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70e53930, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f575acb, org.springframework.security.web.header.HeaderWriterFilter@32bdc091, org.springframework.security.web.authentication.logout.LogoutFilter@30113316, com.project.reservation.filters.JwtAuthenticationFilter@43cbc3ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4270589c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e95b10b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b05ddf4, org.springframework.security.web.session.SessionManagementFilter@4463f90b, org.springframework.security.web.access.ExceptionTranslationFilter@1fa2411c]
-2020-01-28 11:00:11.791  INFO 8984 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-28 11:00:11.941  INFO 8984 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-01-28 11:00:11.941  INFO 8984 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-01-28 11:00:11.954  INFO 8984 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
-2020-01-28 11:00:11.972  INFO 8984 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : Started SessionControllerTests in 0.826 seconds (JVM running for 14.426)
+2020-01-28 11:35:28.495  INFO 17020 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20b2cfe8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b74c54f, org.springframework.security.web.header.HeaderWriterFilter@2cc63926, org.springframework.security.web.authentication.logout.LogoutFilter@3e58fe24, com.project.reservation.filters.JwtAuthenticationFilter@335fac29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29a6fa55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34b4e94e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2892a1b6, org.springframework.security.web.session.SessionManagementFilter@3de94a23, org.springframework.security.web.access.ExceptionTranslationFilter@6a831460]
+2020-01-28 11:35:28.723  INFO 17020 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-28 11:35:29.210  INFO 17020 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-01-28 11:35:29.210  INFO 17020 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-01-28 11:35:29.227  INFO 17020 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2020-01-28 11:35:29.245  INFO 17020 --- [    Test worker] c.p.r.interfaces.SessionControllerTests  : Started SessionControllerTests in 1.307 seconds (JVM running for 17.258)
 </pre>
 </span>
 </div>
@@ -135,7 +135,7 @@ Using generated security password: 607fc19b-e9a9-47c7-9820-da668cda89f0
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 28. 오전 11:00:13</p>
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 28. 오전 11:35:30</p>
 </div>
 </div>
 </body>

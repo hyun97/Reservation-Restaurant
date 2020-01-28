@@ -1,6 +1,5 @@
 package com.project.reservation.application;
 
-import com.project.reservation.domain.Review;
 import com.project.reservation.domain.ReviewRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,13 +25,7 @@ class ReviewServiceTests {
 
     @Test
     public void addReview() {
-        Review review = Review.builder()
-                .name("JOCKER")
-                .score(3)
-                .description("delicious")
-                .build();
-
-        reviewService.addReview(1004L, review);
+        reviewService.addReview(1004L, "JOKER", 3, "delicious");
 
         verify(reviewRepository).save(any());
     }
