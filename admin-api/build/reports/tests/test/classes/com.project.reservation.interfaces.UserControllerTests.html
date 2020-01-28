@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.032s</div>
+<div class="counter">0.036s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">create()</td>
-<td class="success">0.010s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deactivate()</td>
-<td class="success">0.007s</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">list()</td>
-<td class="success">0.007s</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">update()</td>
-<td class="success">0.008s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,12 +102,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-01-28 00:07:56.640  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.UserControllerTests], using SpringBootContextLoader
-2020-01-28 00:07:56.641  INFO 2752 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.UserControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-01-28 00:07:56.641  INFO 2752 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.UserControllerTests]: UserControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-01-28 00:07:56.644  INFO 2752 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.AdminApiApplication for test class com.project.reservation.interfaces.UserControllerTests
-2020-01-28 00:07:56.644  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-01-28 00:07:56.644  INFO 2752 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a41ab9d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@500b374c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@84555c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35b555af, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21f0dc7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ba7fb9f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@29ee4c65, org.springframework.test.context.event.EventPublishingTestExecutionListener@36697cda, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c622ee5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78ad4ff5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@237ba9e1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5e098ef8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c186da]
+<pre>2020-01-28 10:59:51.048  INFO 15912 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.UserControllerTests], using SpringBootContextLoader
+2020-01-28 10:59:51.050  INFO 15912 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.UserControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-28 10:59:51.051  INFO 15912 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.UserControllerTests]: UserControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-28 10:59:51.054  INFO 15912 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.AdminApiApplication for test class com.project.reservation.interfaces.UserControllerTests
+2020-01-28 10:59:51.055  INFO 15912 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-01-28 10:59:51.055  INFO 15912 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7dd82b6d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@45fd4d1a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7f6f1acd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@596f7e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@39a9277a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@161328c8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@112de1b5, org.springframework.test.context.event.EventPublishingTestExecutionListener@23361db1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@53d46c5a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5c0e4b80, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@22d029fd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31187383, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41de6f46]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -117,13 +117,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-01-28 00:07:56.668  INFO 2752 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : Starting UserControllerTests on DESKTOP-B7A5GTQ with PID 2752 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\admin-api)
-2020-01-28 00:07:56.669  INFO 2752 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : No active profile set, falling back to default profiles: default
-2020-01-28 00:07:56.992  INFO 2752 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-28 00:07:57.113  INFO 2752 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-01-28 00:07:57.113  INFO 2752 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-01-28 00:07:57.119  INFO 2752 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2020-01-28 00:07:57.132  INFO 2752 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : Started UserControllerTests in 0.485 seconds (JVM running for 11.413)
+2020-01-28 10:59:51.089  INFO 15912 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : Starting UserControllerTests on DESKTOP-B7A5GTQ with PID 15912 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\admin-api)
+2020-01-28 10:59:51.089  INFO 15912 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : The following profiles are active: test
+2020-01-28 10:59:51.453  INFO 15912 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-28 10:59:51.609  INFO 15912 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-01-28 10:59:51.609  INFO 15912 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-01-28 10:59:51.622  INFO 15912 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
+2020-01-28 10:59:51.637  INFO 15912 --- [    Test worker] c.p.r.interfaces.UserControllerTests     : Started UserControllerTests in 0.578 seconds (JVM running for 13.96)
 </pre>
 </span>
 </div>
@@ -135,7 +135,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 28. 오전 12:07:57</p>
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 28. 오전 10:59:52</p>
 </div>
 </div>
 </body>
