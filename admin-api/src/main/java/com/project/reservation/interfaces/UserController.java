@@ -41,8 +41,9 @@ public class UserController {
     public ResponseEntity<?> create(@RequestBody User resource) throws URISyntaxException {
         String email = resource.getEmail();
         String name = resource.getName();
+        String password = resource.getPassword();
 
-        User user = userService.addUser(email, name);
+        User user = userService.addUser(email, name, password);
 
         String url = "/users/" + user.getId();
         return ResponseEntity.created(new URI(url)).body("{}");

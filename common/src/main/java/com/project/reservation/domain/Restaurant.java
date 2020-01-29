@@ -48,8 +48,9 @@ public class Restaurant {
         return name + " in " + "Seoul";
     }
 
-    public void updateInformation(String name, String address) {
+    public void updateInformation(String name, String address, Long categoryId) {
         this.name = name;
         this.address = address;
+        this.categoryId = categoryId;
     }
 }

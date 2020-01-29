@@ -23,10 +23,11 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public User addUser(String email, String name) {
+    public User addUser(String email, String name, String password) {
         User user = User.builder()
                 .email(email)
                 .name(name)
+                .password(password)
                 .level(1L)
                 .build();
 

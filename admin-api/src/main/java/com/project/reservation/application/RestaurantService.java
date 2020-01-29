@@ -39,9 +39,9 @@ public class RestaurantService {
 
     // 레스토랑 수정
     @Transactional // DB에 변경값 저장
-    public void updateRestaurant(long id, String name, String address) {
+    public void updateRestaurant(long id, String name, String address, Long categoryId) {
         Restaurant restaurant = restaurantRepository.findById(id).orElse(null);
 
-        restaurant.updateInformation(name, address);
+        restaurant.updateInformation(name, address, categoryId);
     }
 }
