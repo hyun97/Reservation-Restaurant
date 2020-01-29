@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.application.UserServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-01-29T02:32:05" hostname="DESKTOP-B7A5GTQ" time="0.664">
+<testsuite name="com.project.reservation.application.UserServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-01-29T10:42:29" hostname="DESKTOP-B7A5GTQ" time="1.413">
   <properties/>
-  <testcase name="authenticateWithNotExistedEmail()" classname="com.project.reservation.application.UserServiceTests" time="0.648"/>
-  <testcase name="authenticateWithValidAttribute()" classname="com.project.reservation.application.UserServiceTests" time="0.01"/>
-  <testcase name="authenticateWithWrongPassword()" classname="com.project.reservation.application.UserServiceTests" time="0.004"/>
+  <testcase name="authenticateWithNotExistedEmail()" classname="com.project.reservation.application.UserServiceTests" time="1.395"/>
+  <testcase name="authenticateWithValidAttribute()" classname="com.project.reservation.application.UserServiceTests" time="0.011"/>
+  <testcase name="authenticateWithWrongPassword()" classname="com.project.reservation.application.UserServiceTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

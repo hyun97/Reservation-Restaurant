@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.reservation.application.MenuItemServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-29T02:31:41" hostname="DESKTOP-B7A5GTQ" time="0.038">
+<testsuite name="com.project.reservation.application.MenuItemServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-29T10:42:00" hostname="DESKTOP-B7A5GTQ" time="0.048">
   <properties/>
-  <testcase name="getMenuItems()" classname="com.project.reservation.application.MenuItemServiceTests" time="0.034"/>
+  <testcase name="getMenuItems()" classname="com.project.reservation.application.MenuItemServiceTests" time="0.043"/>
   <testcase name="bulkUpdate()" classname="com.project.reservation.application.MenuItemServiceTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

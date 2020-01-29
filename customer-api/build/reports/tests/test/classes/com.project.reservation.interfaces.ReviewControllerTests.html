@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.048s</div>
+<div class="counter">0.060s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">createWithInvalidAttribute()</td>
-<td class="success">0.027s</td>
+<td class="success">0.035s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createWithValidAttribute()</td>
-<td class="success">0.021s</td>
+<td class="success">0.025s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,12 +92,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-01-29 11:32:01.376  INFO 18200 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.ReviewControllerTests], using SpringBootContextLoader
-2020-01-29 11:32:01.377  INFO 18200 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.ReviewControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-01-29 11:32:01.377  INFO 18200 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.ReviewControllerTests]: ReviewControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-01-29 11:32:01.380  INFO 18200 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.CustomerApiApplication for test class com.project.reservation.interfaces.ReviewControllerTests
-2020-01-29 11:32:01.380  INFO 18200 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-01-29 11:32:01.381  INFO 18200 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@38bf3e0b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@333991, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@17efe530, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@204f800c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6141bd68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78a7ef60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10895321, org.springframework.test.context.event.EventPublishingTestExecutionListener@4c1afedc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@205cb0ca, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6747874e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3d0dd0dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26fa35bf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@63e51b4a]
+<pre>2020-01-29 19:42:24.223  INFO 140 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.project.reservation.interfaces.ReviewControllerTests], using SpringBootContextLoader
+2020-01-29 19:42:24.224  INFO 140 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.project.reservation.interfaces.ReviewControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-29 19:42:24.224  INFO 140 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.reservation.interfaces.ReviewControllerTests]: ReviewControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-29 19:42:24.227  INFO 140 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.reservation.CustomerApiApplication for test class com.project.reservation.interfaces.ReviewControllerTests
+2020-01-29 19:42:24.227  INFO 140 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-01-29 19:42:24.227  INFO 140 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43dde1e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57ad0172, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7bcf5311, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40d3b535, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2af44e1f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15ed7ca2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@143be2d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@491c877a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4110bcf0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fe6c01c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7400a07f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@598aced2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1d390e2f]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -107,19 +107,19 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-01-29 11:32:01.412  INFO 18200 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : Starting ReviewControllerTests on DESKTOP-B7A5GTQ with PID 18200 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\customer-api)
-2020-01-29 11:32:01.413  INFO 18200 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : The following profiles are active: test
-2020-01-29 11:32:01.668  INFO 18200 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2020-01-29 19:42:24.265  INFO 140 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : Starting ReviewControllerTests on DESKTOP-B7A5GTQ with PID 140 (started by nkh16 in C:\hyun\Programming\WEB\portfolio\Reservation-Restaurant\customer-api)
+2020-01-29 19:42:24.265  INFO 140 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : The following profiles are active: test
+2020-01-29 19:42:24.551  INFO 140 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: f6fca3a4-82fa-4459-81e7-70165cf74e70
+Using generated security password: 0390e3d5-9754-4777-a0e7-727df862d6a7
 
-2020-01-29 11:32:01.730  INFO 18200 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28ccc00, org.springframework.security.web.context.SecurityContextPersistenceFilter@4365533a, org.springframework.security.web.header.HeaderWriterFilter@2294d307, org.springframework.security.web.authentication.logout.LogoutFilter@7e6e4ba6, com.project.reservation.filters.JwtAuthenticationFilter@3d0d0946, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17ed6e6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13e58b7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@730f64a1, org.springframework.security.web.session.SessionManagementFilter@20f48dd5, org.springframework.security.web.access.ExceptionTranslationFilter@67166942]
-2020-01-29 11:32:01.886  INFO 18200 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-29 11:32:02.047  INFO 18200 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-01-29 11:32:02.048  INFO 18200 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-01-29 11:32:02.058  INFO 18200 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
-2020-01-29 11:32:02.074  INFO 18200 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : Started ReviewControllerTests in 0.689 seconds (JVM running for 12.313)
-2020-01-29 11:32:02.120  WARN 18200 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [2] in public org.springframework.http.ResponseEntity&lt;?&gt; com.project.reservation.interfaces.ReviewController.create(org.springframework.security.core.Authentication,java.lang.Long,com.project.reservation.domain.Review) throws java.net.URISyntaxException with 2 errors: [Field error in object 'review' on field 'description': rejected value [null]; codes [NotEmpty.review.description,NotEmpty.description,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.description,description]; arguments []; default message [description]]; default message [must not be empty]] [Field error in object 'review' on field 'score': rejected value [null]; codes [NotNull.review.score,NotNull.score,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.score,score]; arguments []; default message [score]]; default message [must not be null]] ]
+2020-01-29 19:42:24.614  INFO 140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5105612e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2712860, org.springframework.security.web.header.HeaderWriterFilter@468a5cb3, org.springframework.security.web.authentication.logout.LogoutFilter@78a5ae0b, com.project.reservation.filters.JwtAuthenticationFilter@31756634, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39421968, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2db9b537, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@272e0780, org.springframework.security.web.session.SessionManagementFilter@753569c1, org.springframework.security.web.access.ExceptionTranslationFilter@2503c17f]
+2020-01-29 19:42:24.776  INFO 140 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-29 19:42:24.924  INFO 140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-01-29 19:42:24.924  INFO 140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-01-29 19:42:24.932  INFO 140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2020-01-29 19:42:24.952  INFO 140 --- [    Test worker] c.p.r.interfaces.ReviewControllerTests   : Started ReviewControllerTests in 0.722 seconds (JVM running for 14.291)
+2020-01-29 19:42:25.013  WARN 140 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [2] in public org.springframework.http.ResponseEntity&lt;?&gt; com.project.reservation.interfaces.ReviewController.create(org.springframework.security.core.Authentication,java.lang.Long,com.project.reservation.domain.Review) throws java.net.URISyntaxException with 2 errors: [Field error in object 'review' on field 'description': rejected value [null]; codes [NotEmpty.review.description,NotEmpty.description,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.description,description]; arguments []; default message [description]]; default message [must not be empty]] [Field error in object 'review' on field 'score': rejected value [null]; codes [NotNull.review.score,NotNull.score,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.score,score]; arguments []; default message [score]]; default message [must not be null]] ]
 </pre>
 </span>
 </div>
@@ -131,7 +131,7 @@ Using generated security password: f6fca3a4-82fa-4459-81e7-70165cf74e70
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 29. 오전 11:32:03</p>
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 2020. 1. 29. 오후 7:42:26</p>
 </div>
 </div>
 </body>
